@@ -8,7 +8,7 @@
 <!-- Contoh: -->
 <!-- Gw Gerald, web developer yang suka bikin hal-hal ga penting tapi terlihat keren. -->
 
-[ISI DI SINI]
+[Gw Gerald, nama samaran diantara lain adalah xysn dan b1lly, hanya orang plenger yang ga ngapain ngapain]
 
 ---
 
@@ -20,7 +20,8 @@
 <!-- - Nge-dev Roblox -->
 <!-- - Gabut produktif -->
 
-- [ISI DI SINI]
+- [Doomscroll]
+- [Main Game]
 
 ---
 
@@ -32,4 +33,4 @@
 
 ---
 
-*Terakhir diupdate: [TANGGAL]*
+*Terakhir diupdate: [25/06/2026]*
