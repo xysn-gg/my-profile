@@ -1,1 +1,15 @@
-
+{
+  "site": {
+    "name": "Gerald's Private Web",
+    "owner": "Gerald Jonathan William",
+    "year": 2026
+  },
+  "socials": [
+    {
+      "type": "roblox",
+      "label": "Roblox",
+      "url": "",
+      "enabled": false
+    }
+  ]
+}
