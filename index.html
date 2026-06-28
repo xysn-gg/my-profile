@@ -5,116 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Gerald Jonathan William — website pribadi, bukan buat sombong." />
   <meta name="author" content="Gerald Jonathan William" />
-  <meta property="og:title" content="Gerald's Private Web" />
-  <meta property="og:description" content="Hanyalah website gabut. Bukan buat sombong." />
-  <meta property="og:type" content="website" />
   <title>Gerald's Private Web</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ══════════════════════════════════
+  <!-- ══════════════════
        LOADER
-  ══════════════════════════════════ -->
+  ══════════════════ -->
   <div id="loader" aria-hidden="true">
-    <div class="loader-inner">
-      <div class="loader-name">Gerald<span>.</span></div>
-      <div class="loader-bar">
-        <div class="loader-bar-fill"></div>
+    <div class="loader-wrap">
+      <div class="loader-title">Gerald's Private Web</div>
+      <div class="loader-track">
+        <div class="loader-fill"></div>
       </div>
     </div>
   </div>
 
-  <!-- ══════════════════════════════════
-       HERO / BANNER
-  ══════════════════════════════════ -->
-  <section id="hero" aria-label="Banner utama">
+  <!-- ══════════════════
+       HERO
+  ══════════════════ -->
+  <section id="hero">
 
-    <!-- Background layers -->
-    <div class="hero-bg"></div>
-    <div class="hero-orb-1"></div>
-    <div class="hero-orb-2"></div>
+    <div class="hero-bg-img" id="heroBg"></div>
+    <div class="hero-bg-overlay"></div>
 
-    <!-- Hero content -->
     <div class="hero-inner">
-      <div class="hero-card">
+      <div class="hero-card" id="heroCard">
 
-        <!-- Eyebrow badge -->
-        <div class="hero-eyebrow">
-          <span class="dot"></span>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
           Gerald's Private Web
         </div>
 
-        <!-- Name -->
         <h1 class="hero-name">
-          <span class="name-first">Gerald Jonathan</span>
-          <span class="name-last">William</span>
+          <span class="line-1">Gerald Jonathan William</span>
+          <span class="line-2">Website Pribadi</span>
         </h1>
 
-        <!-- Tagline -->
         <p class="hero-tagline">
-          "Hanyalah website gabut, portfolio mah serah, mau cuma profil aja ya serah, ga ada bermaksud buat sombong"
+          "Hanyalah website gabut, portfolio mah serah, mau cuma profil aja ya serah,
+          ga ada bermaksud buat sombong"
         </p>
 
-        <!-- Divider -->
-        <div class="hero-divider"></div>
+        <div class="hero-rule"></div>
 
-        <!-- Meta info -->
         <div class="hero-meta">
-          <div class="hero-meta-item">
-            <svg class="meta-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.2"/>
-              <path d="M8 4.5v3.75l2.5 1.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-            </svg>
-            <span>Personal</span>
-          </div>
-          <div class="hero-meta-dot"></div>
-          <div class="hero-meta-item">
-            <svg class="meta-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 12.5C2 10.567 4.686 9 8 9s6 1.567 6 3.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-              <circle cx="8" cy="5.5" r="2.5" stroke="currentColor" stroke-width="1.2"/>
-            </svg>
-            <span>Gerald Jonathan William</span>
-          </div>
-          <div class="hero-meta-dot"></div>
-          <div class="hero-meta-item">
-            <svg class="meta-icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="2" y="3" width="12" height="10" rx="2" stroke="currentColor" stroke-width="1.2"/>
-              <path d="M2 6h12" stroke="currentColor" stroke-width="1.2"/>
-              <circle cx="5.5" cy="9.5" r="0.75" fill="currentColor"/>
-              <circle cx="8" cy="9.5" r="0.75" fill="currentColor"/>
-              <circle cx="10.5" cy="9.5" r="0.75" fill="currentColor"/>
-            </svg>
-            <span>2026</span>
-          </div>
+          <span class="hero-meta-tag">Personal</span>
+          <span class="hero-meta-tag">2026</span>
+          <span class="hero-meta-tag">Gerald Jonathan William</span>
         </div>
 
       </div>
     </div>
 
-    <!-- Scroll indicator -->
-    <div class="hero-scroll" id="heroScroll" role="button" aria-label="Scroll ke bawah" tabindex="0">
+    <div class="hero-scroll-hint" id="scrollHint" role="button" tabindex="0" aria-label="Scroll ke bawah">
       <span>Scroll</span>
-      <div class="scroll-line"></div>
+      <div class="hint-line"></div>
     </div>
 
   </section>
 
-  <!-- ══════════════════════════════════
-       DESKRIPSI SINGKAT
-  ══════════════════════════════════ -->
-  <section id="deskripsi" aria-label="Deskripsi singkat">
-    <div class="desk-container">
+  <!-- ══════════════════
+       DESKRIPSI
+  ══════════════════ -->
+  <section id="deskripsi">
+    <div class="desk-wrap">
 
-      <div class="desk-label reveal">Deskripsi</div>
+      <div class="desk-eyebrow reveal">Tentang</div>
 
-      <div class="desk-card reveal">
-        <!-- Konten deskripsi diisi dari desk-singkat.md -->
-        <!-- Untuk sekarang placeholder, nanti bisa diisi manual atau via JS -->
-        <p class="desk-placeholder" id="deskText">
-          <!-- Isi deskripsi akan muncul di sini setelah desk-singkat.md diisi. -->
-          Belum ada deskripsi. Edit <code>assets/deskripsi/desk-singkat.md</code> buat ngisi bagian ini.
-        </p>
+      <div class="desk-card reveal" id="deskCard">
+        <div id="deskContent">
+          <p class="desk-empty">Memuat...</p>
+        </div>
       </div>
 
     </div>
