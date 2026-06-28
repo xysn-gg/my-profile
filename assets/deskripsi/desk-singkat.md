@@ -1,36 +1,34 @@
-# Deskripsi Singkat — Gerald Jonathan William
-
----
+# Gerald Jonathan William
 
 ## Tentang Gw
 
-<!-- Tulis deskripsi singkat lo di sini -->
-<!-- Contoh: -->
-<!-- Gw Gerald, web developer yang suka bikin hal-hal ga penting tapi terlihat keren. -->
 
-[Gw Gerald, nama samaran diantara lain adalah xysn dan b1lly, hanya orang plenger yang ga ngapain ngapain]
+## Yang Gw Lakuin
 
----
 
-## Hal yang Gw Lakuin
+## Sosial Media & Kontak
 
-<!-- Bisa berupa list singkat -->
-<!-- Contoh: -->
-<!-- - Bikin website -->
-<!-- - Nge-dev Roblox -->
-<!-- - Gabut produktif -->
+### Roblox
 
-- [Doomscroll]
-- [Main Game]
 
----
+### Instagram
 
-## Kontak / Sosmed
 
-<!-- Opsional, isi kalau mau dipublik -->
+### TikTok
 
-- [ISI DI SINI]
 
----
+### WhatsApp
 
-*Terakhir diupdate: [25/06/2026]*
+#### Grup
+
+
+#### Channel
+
+
+#### Nomor WA
+
+
+### YouTube
+
+
+### Discord
