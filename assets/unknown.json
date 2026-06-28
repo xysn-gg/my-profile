@@ -1,0 +1,42 @@
+{
+      "type": "instagram",
+      "label": "Instagram",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "type": "tiktok",
+      "label": "TikTok",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "type": "whatsapp_group",
+      "label": "WhatsApp Group",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "type": "whatsapp_channel",
+      "label": "WhatsApp Channel",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "type": "whatsapp_phone",
+      "label": "WhatsApp",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "type": "youtube",
+      "label": "YouTube",
+      "url": "",
+      "enabled": false
+    },
+    {
+      "type": "discord",
+      "label": "Discord",
+      "url": "",
+      "enabled": false
+    }
