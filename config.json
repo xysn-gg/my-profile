@@ -10,6 +10,12 @@
       "label": "Main Account",
       "url": "https://www.roblox.com/users/4207459058",
       "enabled": true
-    }
+    },
+    {
+      "type": "whatsapp_channel",
+      "label": "Xysn_GG Official",
+      "url": "https://whatsapp.com/channel/0029VbCU7Mm9WtC0784kCK1g",
+      "enabled": true
+    },
   ]
 }
